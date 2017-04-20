@@ -16,7 +16,7 @@ CORRELATION = 'correlation'
 FREQUENCY = 'count'
 CORRELATION_LABEL = 'Correlation'
     
-class CAClient:
+class CAClient(object):
     
     def __init__(self, endpoint):
         self.endpoint = endpoint
