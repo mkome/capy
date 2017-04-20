@@ -8,5 +8,6 @@ setup(
 	description="capy package",
 	url="https://github.com/mkome/capy",
 	packages=find_packages(),
+	py_modules=['capy'],
 	install_requires=[],
 	)
